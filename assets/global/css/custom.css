@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 Jan, 2017, 7:13:16 PM
+    Author     : Rajat
+*/
+.wrapper{
+        height: 1000px!important;
+}
+.form_error, .star_red{
+    color:red;
+}
+ 
+.login-page, .register-page{
+    
+    background:#695a94; 
+}
+
+.register_panel{
+    margin-top: 6%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.login_panel{
+    margin-top: 35%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    
+}
+
+.admin_form_body{
+    width: 99%;
+}
+  
