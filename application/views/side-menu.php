@@ -18,7 +18,7 @@
 <ul class="sidebar-menu">
     <li class="header">MAIN NAVIGATION</li>
     <?php 
-    if($this->session->userdata('userinfo')->user_type == 4):
+    if($this->session->userdata('userinfo')->user_type == 3):
     ?>
     <li class="treeview <?php if($this->uri->segment(1) == 'dashboard'){echo 'l';}?>">
         <a href="#">

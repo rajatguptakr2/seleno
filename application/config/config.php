@@ -26,7 +26,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 //$get = $_SERVER['HTTP_HOST']; 
 //$config['base_url'] = 'localhost:8080/project2017/unknown/';
 //$config['base_url'] = 'http://localhost:8080/project2017/unknown/';
-$config['base_url'] = 'http://'.$_SERVER['HTTP_HOST'].'/project2017/unknown/';
+$config['base_url'] = 'http://'.$_SERVER['HTTP_HOST'].'/seleno/';
 
 
 /*

@@ -1,6 +1,10 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+
+//Website Name variations 
+
+define('WEBNAME','Seleno');
 /*
 |--------------------------------------------------------------------------
 | Display Debug backtrace

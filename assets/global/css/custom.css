@@ -16,11 +16,11 @@ and open the template in the editor.
  
 .login-page, .register-page{
     
-    background:#695a94; 
+    background:rgba(254, 96, 1, 0.77); 
 }
 
 .register_panel{
-    margin-top: 6%;
+    margin-top: 50%;
     margin-bottom: 20px;
     background-color: #fff;
     border: 1px solid transparent;
@@ -30,7 +30,7 @@ and open the template in the editor.
 }
 
 .login_panel{
-    margin-top: 35%;
+    margin-top: 50%;
     margin-bottom: 20px;
     background-color: #fff;
     border: 1px solid transparent;

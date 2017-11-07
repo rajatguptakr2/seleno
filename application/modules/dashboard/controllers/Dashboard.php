@@ -7,7 +7,7 @@ class Dashboard extends CI_Controller {
     public function __construct() {
         parent::__construct();
         $this->load->model('dash_model');
-        is_protected();
+        // is_superadminprotected();
     }
 
     public function index() {
@@ -199,7 +199,7 @@ class Dashboard extends CI_Controller {
 
         $mail->setFrom('userinfo@unknow.com', 'CodexWorld');
 //        $mail->addReplyTo('tekshapers.rajat@gmail.com', 'CodexWorld');
-        $mail->addAddress('shwetaverma.3792@gmail.com');   // Add a recipient
+        $mail->addAddress('rajat.guptakr2@gmail.com');   // Add a recipient
         $mail->addCC('rajat.guptakr2@gmail.com');
         $mail->addBCC('rajat.guptakr2@gmail.com');
 
@@ -210,6 +210,8 @@ class Dashboard extends CI_Controller {
         echo $val;
         $bodyContent = "APPPATH.third_party/PHPMailer-master/PHPMailerAutoload.php";
         $mail->addAttachment($val);
+
+      
 
 
         $mail->Subject = 'Email from Localhost by CodexWorld';
